@@ -6,7 +6,7 @@ Feature: Add A Customer
   Scenario Outline: To Generate A Five Set Of Customer Id
     Given User Should Launch The Browser
     And User Click The Add User
-    When User Should Give The valid Detail"<fname>","<lname>","<email>","<address>","<phone>"
+    When User Should Give The valid Detail "<fname>","<lname>","<email>","<address>","<phone>"
     Then I validate the customer id Showing or not
 
     Examples: 
